@@ -13,6 +13,15 @@
           {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
+          {% if site.author.email-acad -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email-acad }}">{{ site.author.email-acad }}</a></li>
+          {%- endif %}
+          {% if site.author.email-other -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email-other }}">{{ site.author.email-other }}</a></li>
+          {%- endif %}
+          {% if site.author.phone -%}
+            <li>{{ site.author.phone }}</li>
+          {%- endif %}
         </ul>
       {%- endif %}
       </div>
