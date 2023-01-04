@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
+title: "First post"
 categories: junk
 author:
-- Bart Simpson
-- Nelson Mandela Muntz
-meta: "Springfield"
+- Buzi Nguyen
+meta: "robotics"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
