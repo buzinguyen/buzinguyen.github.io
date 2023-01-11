@@ -1,9 +1,24 @@
-title: Buzi Nguyen
+title: Duy Phuong Nguyen (Buzi)
+subtitle: PhD Student, Electrical and Computer Engineering
 author:
   name: Duy Phuong Nguyen
   email-acad: duyn@princeton.edu
   email-other: buzinguyen@gmail.com
   phone: (609) 375 6109
+  avatar: "/assets/img/avatar.jpeg"
+  bio: "Robotics Researcher, Maker and Enthusiast"
+  location: "Princeton, New Jersey, USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/buzi-princeton"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=BpR72EcAAAAJ"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/buzinguyen"
+
 description: > # this means to ignore newlines until "show_excerpts:"
   Robotics Researcher, Maker and Enthusiast
 
@@ -25,8 +40,19 @@ minima:
 # header_pages:
 # - about.md
 
+# Default configs
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-seo-tag
+  - jekyll/scholar
+
+# Mmistakes configs
+breadcrumbs: true

@@ -1,12 +1,8 @@
 ---
-layout: post
+layout: posts
 title: "Back to the Future: Efficient, Time-Consistent Solutions in Reach-Avoid Games"
 categories: research
 permalink: research/reach-avoid-games
-author:
-    - Dennis Anthony
-    - Duy Phuong Nguyen
-    - Jaime Fisac
 tags:
     - Robotics
     - Game Theory

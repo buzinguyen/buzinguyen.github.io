@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two columns that floats next to each other */
+.column-logo {
+  float: left;
+  padding: 25px 15px 15px 15px;
+  width: 15%;
+}
+.column-desc {
+  float: left;
+  padding: 15px;
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img.img-logo {
+  width: 100px;
+}
