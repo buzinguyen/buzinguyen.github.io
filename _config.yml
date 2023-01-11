@@ -26,14 +26,14 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
+# minima:
+#   date_format: "%b %-d, %Y"
 
-  # generate social links in footer
-  social_links:
-    - { platform: github,         user_url: "https://github.com/buzi-princeton" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=BpR72EcAAAAJ" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/buzinguyen" }
+#   # generate social links in footer
+#   social_links:
+#     - { platform: github,         user_url: "https://github.com/buzi-princeton" }
+#     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=BpR72EcAAAAJ" }
+#     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/buzinguyen" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -48,11 +48,15 @@ defaults:
       author_profile: true
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+github:
+  - repository: buzinguyen/buzinguyen.github.io
 
 plugins:
   - jekyll-seo-tag
-  - jekyll/scholar
+  # - jekyll/scholar
+  - jekyll-include-cache
 
 # Mmistakes configs
 breadcrumbs: true
