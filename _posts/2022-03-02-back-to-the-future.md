@@ -1,10 +1,10 @@
 ---
-layout: posts
+layout: single
 title: "Back to the Future: Efficient, Time-Consistent Solutions in Reach-Avoid Games"
-categories: research
+categories: Research
 permalink: research/reach-avoid-games
-tags:
-    - Robotics
+tags: 
+    - Robotics 
     - Game Theory
 excerpt: >
     An extension of the state-of-the-art multi-agent non-cooperative Nash trajectory optimization solver (iLQSolver) that deals with time-consistency in solution.

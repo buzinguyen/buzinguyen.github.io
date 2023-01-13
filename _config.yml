@@ -50,7 +50,9 @@ defaults:
       path: ""
       type: "posts"
     values:
+      layout: single
       read_time: true
+      share: true
       header:
         overlay_image: /assets/img/default_header_img.png
         overlay_filter: 0.5
@@ -66,8 +68,26 @@ plugins:
   # - jekyll/scholar
   - jekyll-include-cache
   - jekyll-paginate
+  - jekyll-archives
 
 # Mmistakes configs
 breadcrumbs: true
 paginate: 10
 paginate_path: /research/page:num/
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
