@@ -46,6 +46,13 @@ conferences:
     conf: 2019 2nd International Symposium on Devices, Circuits and Systems (ISDCS)
     year: 2019
     page: 1-5
+  - title: A hybrid indoor localization system running ensemble machine learning
+    authors:
+    - D. P. Nguyen
+    - P. C. Thanh
+    conf: 2018 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Ubiquitous Computing & Communications, Big Data & Cloud Computing, Social Computing & Networking, Sustainable Computing & Communications (ISPA/IUCC/BDCloud/SocialCom/SustainCom)
+    year: 2018
+    page: 1071-1078
 preprints:
   - title: "ISAACS: Iterative Soft Adversarial Actor-Critic for Safety"
     authors:
@@ -64,6 +71,7 @@ preprints:
     journal: "arXiv preprint arXiv:2109.07673"
     date: Sep 2021
     pdf: https://arxiv.org/pdf/2109.07673.pdf
+    blog: /research/reach-avoid-games
 other:
   - title: "YomeciLand x Bunjil Place: The sounding body as play"
     authors:

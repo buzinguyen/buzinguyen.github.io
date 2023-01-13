@@ -46,6 +46,14 @@ defaults:
       path: ""
     values:
       author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      read_time: true
+      header:
+        overlay_image: /assets/img/default_header_img.png
+        overlay_filter: 0.5
 
 # Build settings
 # theme: minimal-mistakes-jekyll
@@ -57,6 +65,9 @@ plugins:
   - jekyll-seo-tag
   # - jekyll/scholar
   - jekyll-include-cache
+  - jekyll-paginate
 
 # Mmistakes configs
 breadcrumbs: true
+paginate: 10
+paginate_path: /research/page:num/

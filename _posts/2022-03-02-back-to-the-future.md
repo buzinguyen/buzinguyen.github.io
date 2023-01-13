@@ -6,18 +6,14 @@ permalink: research/reach-avoid-games
 tags:
     - Robotics
     - Game Theory
-excerpt: 
-    '
-    <p>
-        An extension of the state-of-the-art multi-agent non-cooperative Nash trajectory optimization solver (iLQSolver) that deals with time-consistency in solution.
-    </p>
-    <figure>
-        <p float="left" style="text-align:center;">
-            <img src="https://github.com/SafeRoboticsLab/Reach-Avoid-Games/raw/main/result/batch-2022-02-23/summary/exp_time_consistent_summary_three_color_plot.png" width="300">
-            <img src="https://github.com/SafeRoboticsLab/Reach-Avoid-Games/raw/main/result/batch-2022-02-23/summary/exp_time_inconsistent_summary_three_color_plot.png" width="300">
-        </p>
-    <figure>
-    '
+excerpt: >
+    An extension of the state-of-the-art multi-agent non-cooperative Nash trajectory optimization solver (iLQSolver) that deals with time-consistency in solution.
+header:
+    overlay_image: 
+    overlay_filter: 0.5
+    actions:
+    - label: "Paper"
+      url: https://arxiv.org/pdf/2109.07673.pdf
 ---
 
 We study the class of reach-avoid dynamic games in which multiple agents interact noncooperatively, and each wishes to satisfy a distinct target criterion while avoiding a failure criterion. Reach-avoid games are commonly used to express safety-critical optimal control problems found in mobile robot motion planning. Here, we focus on finding time-consistent solutions, in which future motion plans remain optimal even when a robot diverges from the plan early on due to, e.g., intrinsic dynamic uncertainty or extrinsic environment disturbances. Our main contribution is a computationally-efficient algorithm for multi-agent reach-avoid games which renders time-consistent solutions for all players. We demonstrate our approach in two- and three-player simulated driving scenarios, in which our method provides safe control strategies for all agents.

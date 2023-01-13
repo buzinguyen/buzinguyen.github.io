@@ -12,4 +12,5 @@ group :jekyll_plugins do
   # gem 'jekyll-scholar'
   gem "github-pages"
   gem "jekyll-include-cache"
+  gem "jekyll-paginate"
 end

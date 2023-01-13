@@ -263,6 +263,7 @@ DEPENDENCIES
   bundler
   github-pages
   jekyll-include-cache
+  jekyll-paginate
   minima!
   webrick (~> 1.7)
 

@@ -33,6 +33,9 @@ permalink: /publications/
 {%- if item.code -%}
 [[Code]]({{ item.code }})
 {%- endif -%}
+{%- if item.blog -%}
+[[Blog]]({{ item.blog }})
+{%- endif -%}
 
 {% endfor %}
 <br>
@@ -58,7 +61,7 @@ permalink: /publications/
 {%- endif -%}
 <!-- Links -->
 {%- if item.pdf -%}
-[[PDF]]({{ item.pdf }}) 
+&nbsp;[[PDF]]({{ item.pdf }}) 
 {%- endif -%}
 {%- if item.code -%}
 [[Code]]({{ item.code }})
