@@ -34,3 +34,19 @@ search: false
 img.img-logo {
   width: 60px;
 }
+
+.news-photo {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.news-date {
+  padding: 5px 10px 7px 40px;
+  background-color: $primary-color;
+  color: #fff;
+  font-size: $type-size-5;
+}
+
+.news-item {
+  margin-bottom: 60px;
+}
