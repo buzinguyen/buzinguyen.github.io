@@ -91,3 +91,9 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+# Archives
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
