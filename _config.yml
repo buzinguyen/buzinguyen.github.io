@@ -68,7 +68,6 @@ plugins:
   # - jekyll/scholar
   - jekyll-include-cache
   - jekyll-paginate
-  - jekyll-archives
 
 # Mmistakes configs
 breadcrumbs: true
@@ -76,24 +75,8 @@ paginate: 10
 paginate_path: /research/page:num/
 
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-
-# Archives
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
