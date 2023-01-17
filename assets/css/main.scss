@@ -8,6 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// ------------------------------------------------------------ 
+// Publications page
+// ------------------------------------------------------------
 * {
   box-sizing: border-box;
 }
@@ -35,6 +38,9 @@ img.img-logo {
   width: 60px;
 }
 
+// ------------------------------------------------------------ 
+// News page
+// ------------------------------------------------------------
 .news-photo {
   width: 200px;
   margin-right: 20px;
@@ -64,4 +70,11 @@ img.img-logo {
 .news-label.research-update {
   background-color: #0092ca;
   color: #fff;
+}
+
+// ------------------------------------------------------------ 
+// Projects page
+// ------------------------------------------------------------
+.projects-logo {
+  width: 200px;
 }
