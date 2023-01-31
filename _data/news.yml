@@ -2,14 +2,14 @@
   title: Art was folded with tech at the Origami Engineering show
   url: https://engineering.princeton.edu/news/2023/01/04/art-was-folded-tech-origami-engineering-show
   img: /assets/img/news/miura.jpg
-  description: ----add description here----
+  description: ----add description here----<br><br><br><br>
   label: 
     - feature
 - date: 2022-11-22
   title: Robot trucks drive students to solve real problems in modern robotics
   url: https://ece.princeton.edu/news/robot-trucks-drive-students-solve-real-problems-modern-robotics
   img: /assets/img/news/ece_346.png
-  description: ----add description here----
+  description: ----add description here----<br><br><br><br>
   label: 
     - feature
 - date: 2022-12-06
@@ -17,3 +17,33 @@
     Preprint published on arXiv: [**ISAACS: Iterative Soft Adversarial Actor-Critic for Safety**](https://arxiv.org/abs/2212.03228)
   label: 
     - research-update
+- date: 2019-11-16
+  title: FieldKit Is The Grand Prize Winner Of The 2019 Hackaday Prize
+  url: https://hackaday.com/2019/11/16/fieldkit-is-the-grand-prize-winner-of-the-2019-hackaday-prize/
+  img: https://hackaday.com/wp-content/uploads/2019/11/DSC04446_featured.png?w=800
+  description: >
+    Project **Prosthesis with bio-signals and CV** was awarded Best Concept in The 2019 Hackaday Prize.
+    <br><br>
+    [Repository](https://hackaday.io/project/165075-3d-printed-prosthesis-with-cv-bci-and-emg){: .btn .btn--inverse}
+    [Demo](https://www.youtube.com/watch?v=8_KO6LgnUwg){: .btn .btn--inverse}
+  label:
+    - feature
+    - achievement
+- date: 2019-09-10
+  title: Meet The 20 Finalists In The 2019 Hackaday Prize
+  url: https://hackaday.com/2019/09/10/meet-the-20-finalists-in-the-2019-hackaday-prize/
+  img: https://hackaday.com/wp-content/uploads/2019/09/3d-printed-prosthesis-hackaday-prize-2019.jpg?resize=400,145
+  description: >
+    Project **Prosthesis with bio-signals and CV** made it to the top 20 of The 2019 Hackaday Prize.
+  label:
+    - feature
+    - achievement
+- date: 2013-05-17
+  img: https://static.tuoitre.vn/tto/i/s626/2013/05/18/SkjZEwBA.jpg
+  description: >
+    Team project ***"An Automatic Environmental Monitoring System: Application to Aquaponics for Home Grown Food"***
+    won Fourth Prize in *Engineering: Electrical and Mechanical* category at **Intel ISEF 2013**.
+    <br>
+    [Full Listing of Grand Award Winners](https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2013/Press-Releases/Grand-Awards.pdf){: .btn .btn--inverse}
+  label:
+    - achievement

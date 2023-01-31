@@ -14,7 +14,7 @@ permalink: /news/
 </div>
 <div markdown="1" class="news-item">
   <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-  ![]({{ item.img }}){: .news-photo}
+  ![]({{ item.img }}){: .news-photo .align-left}
   {{ item.description }}
 </div>
 {% endfor %}

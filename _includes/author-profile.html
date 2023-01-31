@@ -31,6 +31,20 @@
         </li>
       {% endif %}
 
+      <li>
+        <i class="far fa-envelope" aria-hidden="true"></i>
+        <span itemprop="name" class="label">
+          {{ author.email-acad }}<br>(for academic purposes)
+        </span>
+      </li>
+
+      <li>
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        <span itemprop="name" class="label">
+          {{ author.email-other }}<br>(for generic purposes)
+        </span>
+      </li>
+
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}

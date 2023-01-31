@@ -16,7 +16,7 @@ author:
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=BpR72EcAAAAJ"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/buzinguyen"
 
 description: > # this means to ignore newlines until "show_excerpts:"
