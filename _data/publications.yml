@@ -1,3 +1,8 @@
+books:
+  - title: Introduction to Linear System
+    url: https://www.buzinguyen.com/linsys-intro/intro.html
+  - title: Introduction to Reinforcement Learning
+    url: https://www.buzinguyen.com/rl-intro/intro.html
 journals:
   - title: "Sim-to-Lab-to-Real: Safe reinforcement learning with shielding and generalization guarantees"
     authors:
@@ -13,6 +18,15 @@ journals:
     date: Jan 2023
     pdf: https://arxiv.org/pdf/2201.08355.pdf
 conferences:
+  - title: "ISAACS: Iterative Soft Adversarial Actor-Critic for Safety"
+    authors:
+    - K. C. Hsu
+    - D. P. Nguyen
+    - and J. F. Fisac
+    conf: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
+    year: 2023
+    page: 90-103
+    pdf: https://proceedings.mlr.press/v211/hsu23a/hsu23a.pdf
   - title: "Sim-to-Lab-to-Real: Safe RL with Shielding and Generalization Guarantees"
     authors:
     - K. C. Hsu
@@ -54,14 +68,6 @@ conferences:
     year: 2018
     page: 1071-1078
 preprints:
-  - title: "ISAACS: Iterative Soft Adversarial Actor-Critic for Safety"
-    authors:
-    - K. C. Hsu
-    - D. P. Nguyen
-    - and J. F. Fisac
-    journal: "arXiv preprint arXiv:2212.03228"
-    date: Dec 2022
-    pdf: https://arxiv.org/pdf/2212.03228.pdf
   - title: "Back to the Future: Efficient, Time-Consistent Solutions in Reach-Avoid Games"
     authors:
     - D. R. Anthony

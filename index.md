@@ -4,7 +4,7 @@ layout: single
 
 Hi there!
 
-My name is Duy Phuong Nguyen (Buzi Nguyen), a 2nd year PhD student at Princeton University working with
+My name is Duy Phuong Nguyen (Buzi Nguyen), a PhD candidate at Princeton University working with
 Assistant Professor Jaime Fisac.
 
 {% for exp in site.data.experience %}
