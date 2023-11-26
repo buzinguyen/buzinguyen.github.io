@@ -4,10 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-## Cyobot
+## CYOBot
 
 ![](/assets/img/projects/cyobot.jpg){: .align-left .projects-logo}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis sagittis porttitor. Donec nec blandit arcu, id commodo quam. Mauris ac enim nunc. Nunc eu dignissim risus, eu venenatis ipsum. Vivamus massa elit, rhoncus ut consectetur ut, mattis sed leo. Nullam accumsan, sem eu dignissim mattis, risus turpis mollis nulla, nec luctus neque eros ut lorem. Maecenas vel faucibus risus, a feugiat nibh. Vestibulum commodo nibh lectus, in mollis leo lacinia non. Aliquam vitae tristique leo. Ut diam justo, mollis ac luctus et, sollicitudin a quam. Morbi malesuada, urna ut luctus sollicitudin, enim magna cursus lacus, vel interdum lacus dolor.
+**CYOBot** is an all-in-one open-source developer kit for learning robotics with 1,000 projects in embedded systems, control, machine learning/AI, robotics, IoT, and more. Instead of buying different kits for every new thing you want to learn, we created one comprehensive kit that guides students through different skill levels and interests in the engineering fields, with practical, industry-relevant applications.
 
 [Website](https://cyobot.com/){: .btn .btn--primary}
 [Facebook](https://www.facebook.com/cyobot/){: .btn .btn--info}
