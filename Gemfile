@@ -7,6 +7,7 @@ gemspec
 # gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 # gem "minimal-mistakes-jekyll"
 gem "webrick", "~> 1.7"
+gem 'liquid', '~> 4.0', '>= 4.0.4'
 
 group :jekyll_plugins do
   # gem 'jekyll-scholar'

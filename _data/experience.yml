@@ -4,7 +4,7 @@ education:
     url: https://www.princeton.edu/
     program: "PhD, Electrical & Computer Engineering"
     location: "Princeton, NJ, USA"
-    time: "2021-2026 (Expected)"
+    time: "2021 - 2026 (Expected)"
     description: |+
       **Department:** Electrical & Computer Engineering
   - school: "RMIT University"
@@ -19,15 +19,15 @@ education:
     url: https://www.rmit.edu.vn/
     program: "BEng., Electrical & Electronics Engineering (Honours)"
     location: "Ho Chi Minh City, Vietnam"
-    time: "2014-2019"
+    time: "2014 - 2019"
     description: "Valedictorian of Engineering cohort"
 research:
   - org: "Safe Robotics Laboratory"
     logo: /assets/img/logos/safe_robotics.jpg
     url: https://saferobotics.princeton.edu/
-    time: "---add time---"
+    time: "2021 - Present"
     location: "Princeton, NJ, USA"
-    role: "---add role---"
+    role: "Graduate Researcher"
     description: ""
   - org: "RMIT University Vietnam"
     logo: /assets/img/logos/rmit.png
@@ -90,7 +90,7 @@ industry:
       and automatic report generator generation \
       \- Created a REST service tracing program using DFS
   - org: "Aubot"
-    logo: /assets/img/logos/aubot.jpg
+    logo: /assets/img/logos/aubot_logo_digital_black.png
     url: https://aubot.com/
     time: "Jun 2017 - Dec 2017"
     location: "Melbourne, VIC, Australia"
