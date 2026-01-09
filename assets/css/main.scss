@@ -1,84 +1,25 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
-
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Dimensions
+$max-content-width: {{ site.max_width }};
 
-// ------------------------------------------------------------ 
-// Publications page
-// ------------------------------------------------------------
-* {
-  box-sizing: border-box;
-}
-
-/* Create two columns that floats next to each other */
-.column-logo {
-  float: left;
-  padding: 25px 15px 15px 15px;
-  width: 12%;
-}
-.column-desc {
-  float: left;
-  padding: 15px;
-  width: 88%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-img.img-logo {
-  width: 60px;
-}
-
-// ------------------------------------------------------------ 
-// News page
-// ------------------------------------------------------------
-.news-photo {
-  width: 200px;
-  margin-right: 20px;
-}
-
-.news-date {
-  padding: 5px 10px 7px 40px;
-  background-color: $primary-color;
-  color: #fff;
-  font-size: $type-size-6;
-}
-
-.news-item {
-  margin-top: -20px;
-  margin-bottom: 50px;
-}
-
-.news-label {
-  padding: 5px 10px 7px 10px;
-  font-size: $type-size-6;
-}
-
-.news-label.feature {
-  background-color: #f58025;
-  color: #fff;
-}
-.news-label.research-update {
-  background-color: #0092ca;
-  color: #fff;
-}
-.news-label.achievement {
-  background-color: #ff6961;
-  color: #fff;
-}
-
-// ------------------------------------------------------------ 
-// Projects page
-// ------------------------------------------------------------
-.projects-logo {
-  width: 200px;
-}
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
