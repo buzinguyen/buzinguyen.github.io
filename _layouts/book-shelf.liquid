@@ -20,7 +20,7 @@ layout: page
       {% endif %}
 
       <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
+        <a class="cover-link" href="{{ item.book_url | default: item.url | relative_url }}">
           {% if item.cover %}
             <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
           {% elsif item.olid %}
@@ -29,7 +29,7 @@ layout: page
             <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
           {% endif %}
           {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread,writing' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
               <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>

@@ -1,157 +1,282 @@
 {
   "basics": {
     "name": "Duy P. Nguyen",
-    "label": "Scientist",
+    "label": "PhD Candidate in Electrical and Computer Engineering",
     "image": "",
     "email": "duyn@princeton.edu",
     "phone": "(609) 375 6109",
     "url": "https://buzinguyen.com",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Specializing in scaling safe reinforcement learning for high-dimensional robotic systems through world models, adversarial imagination, and closed-loop foundation model fine-tuning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "buzinguyen",
+        "url": "https://www.linkedin.com/in/buzinguyen/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Waymo",
+      "position": "Research Intern",
+      "url": "https://waymo.com/",
+      "startDate": "2025-06-23",
+      "endDate": "2025-09-12",
+      "summary": "Improving robustness of motion forecasting model via closed-loop reinforcement learning fine-tuning.",
+      "highlights": [
+        "Designed large motion forecasting architectures that reduce catastrophic forgetting during RL fine-tuning for safety-critical autonomous planning.",
+        "Built a JAX-based closed-loop simulator with procedural OOD scenario generation, enabling scalable and closed-loop RLFT under distribution shift."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Vulcan Augmetics",
+      "position": "ML Lead, Technical Advisor",
+      "url": "https://www.wearevulcan.com/",
+      "startDate": "2020-02",
+      "endDate": "2020-12",
+      "summary": "Developing robust human–machine interfaces through embedded biosignal learning and real-time intent decoding on edge devices.",
+      "highlights": [
+        "Led R&D of embedded bio-signal systems for real-time muscle activity decoding, integrating signal processing and machine learning on edge devices.",
+        "Designed learning pipelines for EMG-based intent recognition with low-latency inference under hardware constraints.",
+        "Advised on end-to-end system design spanning sensors, embedded firmware, and user-facing mobile applications."
+      ]
+    },
+    {
+      "name": "Bosch",
+      "position": "Electrical and Electronic Engineer Intern",
+      "url": "https://corporate.bosch.co.jp/en/",
+      "startDate": "2018-01",
+      "endDate": "2019-01",
+      "summary": "Building backend, monitoring, and IoT data interfaces for an agricultural disease prediction system.",
+      "highlights": [
+        "Developed an OCR-based pipeline for automated SIM card serial number recognition in manufacturing workflows.",
+        "Built a real-time sensor monitoring and reporting system managing over 2,000 sensors with automated fault detection.",
+        "Implemented REST-based data crawler with DFS for data collection and processing."
+      ]
+    },
+    {
+      "name": "Aubot",
+      "position": "Embedded Software Engineer Intern",
+      "url": "https://www.aubot.com/",
+      "startDate": "2017-06",
+      "endDate": "2017-12",
+      "summary": "Developing embedded control and firmware systems for teleoperated mobile manipulators.",
+      "highlights": [
+        "Developed and deployed control stack for an 8-DOF robotic arm and omnidirectional mobile base with obstacle detection and collision avoidance.",
+        "Implemented sensor-driven motion control and teleoperation for a telepresence robot."
+      ]
+    },
+    {
+      "name": "National Instruments",
+      "position": "Application Engineer Intern",
+      "url": "https://www.ni.com/",
+      "startDate": "2016-06",
+      "endDate": "2016-12",
+      "summary": "Prototyping and validating robotic control systems using industrial instrumentation and rapid development platforms.",
+      "highlights": [
+        "Prototyped a self-balancing robot and a 3-DOF robotic arm using NI products.",
+        "Support clients’ projects using NI LabVIEW, Multisim, Ultiboard, and vision toolkits."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Princeton University",
+      "location": "Princeton, NJ, USA",
+      "url": "https://www.princeton.edu/",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2021-01",
+      "endDate": "2026-05",
+      "score": "3.7",
+      "courses": []
+    },
+    {
+      "institution": "RMIT University Vietnam",
+      "location": "HCMC, Vietnam",
+      "url": "https://www.rmit.edu.vn/",
+      "area": "Electrical and Electronics Engineering (Honours First Class)",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2014-10",
+      "endDate": "2019-01",
+      "score": "4.0",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Outstanding Teaching Assistant Award",
+      "date": "2022",
+      "awarder": "Princeton University",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "First Year Fellowship in Natural Sciences and Engineering",
+      "date": "2020",
+      "awarder": "Princeton University",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Graduate of Degree Program",
+      "date": "2019",
+      "awarder": "RMIT University Vietnam",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "RMIT Certificate of Achievement",
+      "date": "2019",
+      "awarder": "RMIT University Vietnam",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Best Concept Award",
+      "date": "2019",
+      "awarder": "Hackaday Prize",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Best Paper Award",
+      "date": "2018",
+      "awarder": "BDCloud",
+      "url": "",
+      "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Statistics and Machine Learning",
+      "date": "2025",
+      "issuer": "Princeton University",
+      "url": "https://csml.princeton.edu/graduate/certificate-program",
+      "icon": ""
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Gameplay filters: Robust zero-shot safety through adversarial imagination",
+      "publisher": "8th Annual Conference on Robot Learning (CoRL 2024)",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2405.00846",
+      "summary": "Introduces Gameplay Filters, a safety framework that leverages adversarial imagination to anticipate and mitigate unsafe behaviors at deployment time, enabling robust zero-shot safety for reinforcement learning policies."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Isaacs: Iterative soft adversarial actor-critic for safety",
+      "publisher": "5th Annual Learning for Dynamics and Control Conference (L4DC 2023)",
+      "releaseDate": "2023",
+      "url": "https://proceedings.mlr.press/v211/hsu23a.html",
+      "summary": "Presents ISAACS, an adversarial actor-critic algorithm that models safety as a soft minimax game between control and disturbance policies, enabling stable learning of safety-aware behaviors in continuous control settings."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Provably optimal reinforcement learning under safety filtering",
+      "publisher": "The International Association for Safe & Ethical AI (IASEAI 2026)",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2510.18082",
+      "summary": "Develops a theoretical framework establishing optimality guarantees for reinforcement learning under safety filters, showing that appropriately designed filters can enforce safety without sacrificing asymptotic performance."
+    },
+    {
+      "name": "Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees",
+      "publisher": "Artificial Intelligence (Journal)",
+      "releaseDate": "2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0004370222001515",
+      "summary": "Introduces a sim-to-lab-to-real reinforcement learning framework that integrates safety shielding with formal generalization guarantees, enabling safe transfer of learned policies from simulation to real robotic systems."
+    },
+    {
+      "name": "From refusal to recovery: A control-theoretic approach to generative AI guardrails",
+      "publisher": "The International Association for Safe & Ethical AI (IASEAI 2026)",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2510.13727",
+      "summary": "Proposes a control-theoretic framework for generative AI guardrails that moves beyond static refusal, enabling recovery and safe continuation through dynamic constraints and feedback-based interventions."
+    },
+    {
+      "name": "Back to the future: Efficient, time-consistent solutions in reach-avoid games",
+      "publisher": "2022 IEEE International Conference on Robotics and Automation (ICRA)",
+      "releaseDate": "2022",
+      "url": "https://ieeexplore.ieee.org/document/9812243",
+      "summary": "Develops efficient and time-consistent solution methods for reach-avoid differential games, addressing fundamental challenges in safety-critical planning and scalable robotic decision-making."
+    },
+    {
+      "name": "MAGICS: Adversarial RL with minimax actors guided by implicit critic Stackelberg structure",
+      "publisher": "Workshop on the Algorithmic Foundations of Robotics (WAFR 2024)",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2409.13867",
+      "summary": "Presents an adversarial reinforcement learning algorithm that leverages a Stackelberg game structure with implicit critics, yielding stable and convergent training for safety-oriented robot control policies."
+    },
+    {
+      "name": "A hybrid indoor localization system running ensemble machine learning",
+      "publisher": "2018 IEEE ISPA/IUCC/BDCloud/SocialCom/SustainCom",
+      "releaseDate": "2018",
+      "url": "https://ieeexplore.ieee.org/document/8601230",
+      "summary": "Introduces a hybrid indoor localization system that combines sensor fusion with ensemble machine learning techniques to improve robustness and accuracy in complex indoor environments."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Core Areas",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Reinforcement Learning", 
+        "Learning from Demonstration", 
+        "Optimal Control", 
+        "Game Theory",
+        "Human-Robot Interaction", 
+        "World Models", 
+        "Sim-to-Real Transfer", 
+        "Safety-Critical Systems"
+      ]
+    },
+    {
+      "name": "Methods",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Adversarial RL", 
+        "RL Fine-Tuning", 
+        "Policy and Trajectory Optimization", 
+        "Reachability Analysis", 
+        "Safety Filter", 
+        "State Estimation", 
+        "Multi-modal Decision Making", 
+        "System Identification", 
+        "Real-Time Control and Embedded Systems", 
+        "Signal Processing", 
+        "Data-Driven Modeling", 
+        "Differentiable and Closed-Loop Simulation"
+      ]
+    },
+    {
+      "name": "Tools & Stack",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python", 
+        "C++", 
+        "MATLAB", 
+        "PyTorch", 
+        "JAX", 
+        "CUDA", 
+        "ROS", 
+        "MuJoCo (MJX)", 
+        "Isaac Gym/Lab", 
+        "PyBullet"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Vietnamese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -161,40 +286,39 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Jaime Fernández Fisac",
+      "icon": "",
+      "reference": "Assistant Professor, ECE, Princeton University, jfisac@princeton.edu"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Liting Sun",
+      "icon": "",
+      "reference": "Staff Research Scientist, Waymo, litingsun@waymo.com"
+    },
+    {
+      "name": "Jie Tan",
+      "icon": "",
+      "reference": "Director, Google Deepmind, jietan@google.com"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "DARPA Learning Introspective Control (LINC) program",
+      "summary": "Developed introspective safety mechanisms for adaptive robot control under uncertainty, field-tested on a hybrid track-based robot and crane robot",
+      "highlights": [],
+      "startDate": "2023",
+      "endDate": "2026",
+      "url": "https://www.darpa.mil/news/2024/video-missing-linc"
+    },
+    {
+      "name": "Robust learning-based safety filter on quadruped robot for locomotion",
+      "summary": "Developed zero-shot safety filter using adversarial imagination, deployed on a quadruped robot to prevent falls and unsafe actions during locomotion.",
+      "highlights": [],
+      "startDate": "2022",
+      "endDate": "2024",
+      "url": "https://youtu.be/RlPQR044pEQ?si=LAX6tP4lx6YlpxV7"
     }
   ]
 }

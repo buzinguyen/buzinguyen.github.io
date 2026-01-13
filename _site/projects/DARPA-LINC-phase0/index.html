@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      DARPA LINC Phase 0 | Duy P. Nguyen
+    
+  
+</title>
+<meta name="author" content="Duy P. Nguyen">
+<meta name="description" content="Learning Introspective Control for safety-critical field robots">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A4%96&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/projects/DARPA-LINC-phase0/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Duy</span>
+            
+            P.
+            Nguyen
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projects/">projects
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">cv
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/learning/">learning
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">DARPA LINC Phase 0</h1>
+    <p class="post-description">Learning Introspective Control for safety-critical field robots</p>
+  </header>
+
+  <article>
+    <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/darpa-linc-480.webp 480w,/assets/img/darpa-linc-800.webp 800w,/assets/img/darpa-linc-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/darpa-linc.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="DARPA LINC GVR robot on wedge terrain" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+<div class="caption">
+  <b>Figure:</b> Safety Enforcer interface illustrating how operator commands are filtered through learned safety constraints before execution.
+</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>In <strong>DARPA Learning Introspective Control (LINC) Phase 0</strong>, we explore how learning-based <em>Safety Enforcers</em> can enable shared autonomy for safety-critical field robots, by intervening only when necessary, while preserving operator intent and avoiding disruptive or surprising behaviors.</p>
+
+<p>Specifically, we developed and deployed a learning-based safety filter for a hybrid tracked robot operating across challenging terrains (wedge, single-track incline, narrowing corridor, and chicane), culminating in a fully integrated <strong>final field test</strong> under unmodeled disturbances.</p>
+
+<p>A central design objective of the program is robustness under <strong>adversarial and degraded conditions</strong>. During deployment, adversarial disturbances may corrupt or disable visual sensing and induce actuator-level degradation. As a result, all Safety Enforcers are trained without camera observations, and must remain effective under partial actuaion loss or altered actuator dynamics. <strong><u>The resulting safety policy relies exclusively on proprioceptive state</u></strong> (e.g., IMU, joint states, velocities), ensuring safe operation even when vision is unavailable and actuation is imperfect.</p>
+
+<p><strong>Key contributions:</strong></p>
+<ul>
+  <li>Minimal task disruption: maintained safety while preserving operator intent.</li>
+  <li>Not only did not impede progress, but improved challenging terrain traversal.</li>
+  <li>Novice-driver friendly: operator can focus on the task, safety is automatic.</li>
+</ul>
+
+<hr>
+
+<h2 id="system-overview-learning-introspective-control">System Overview: Learning Introspective Control</h2>
+
+<p>The Safety Enforcer continuously monitors the robot state and operator commands using a learned safety critic $Q^\text{safety}$, intervening only when the proposed action would violate safety constraints. Rather than issuing aggressive overrides, the system computes the <em>closest safe action</em> to minimize disruption during shared autonomy.</p>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/isaacs-information-structure-480.webp 480w,/assets/img/isaacs-information-structure-800.webp 800w,/assets/img/isaacs-information-structure-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/isaacs-information-structure.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="ISAACS information structure in training and deployment" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+  <div class="col-sm-7 mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/value-based-shielding-block-diagram-480.webp 480w,/assets/img/value-based-shielding-block-diagram-800.webp 800w,/assets/img/value-based-shielding-block-diagram-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/value-based-shielding-block-diagram.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Value-based shielding block diagram" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+<div class="caption">
+  <b>Figure:</b> Online safety critic filter (value-based shielding) information flow and block diagram.
+</div>
+
+<hr>
+
+<h2 id="learning-based-safety-filtering">Learning-Based Safety Filtering</h2>
+
+<p>The Safety Enforcer policy was trained using an adversarial reinforcement learning framework inspired by ISAACS <a class="citation" href="#pmlr-v211-hsu23a">(Hsu* et al., 2023)</a>, allowing the system to reason over worst-case disturbances while optimizing safe behavior.</p>
+
+<p>Unlike rule-based safety layers, the learned policy captures nonlinear interactions between robot dynamics, terrain geometry, and control actions.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/gvr-training-sim-480.webp 480w,/assets/img/gvr-training-sim-800.webp 800w,/assets/img/gvr-training-sim-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/gvr-training-sim.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="GVR training in simulation with force adversaries" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/gvr-learn-flippers-480.webp 480w,/assets/img/gvr-learn-flippers-800.webp 800w,/assets/img/gvr-learn-flippers-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/gvr-learn-flippers.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="GVR learned to use flippers in simulation" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+  <b>Figure:</b> The Safety Enforcer trained in simulation with ISAACS. Adversarial agent is modeled as external force applied to the robot (left), and the robot learned to use flippers to dampen the fall on wedge terrain (right).
+</div>
+
+<hr>
+
+<h2 id="featured-results-wedge-terrain-traversal">Featured Results: Wedge Terrain Traversal</h2>
+
+<p>The wedge terrain represents a high-risk scenario involving large angle variations and potential slam events. With LINC enabled, the robot automatically modulates flipper angles and forward velocity, allowing the operator to command high-level intent (e.g., maximum forward speed) while maintaining safety.</p>
+
+<div class="row justify-content-sm-center">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/32XNHcQ8_ag?si=RG0N-hlO_zTXR5Yy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+<div class="caption">
+  <b>Video:</b> Learned Safety Enforcer enabling surprise-free shared autonomy during wedge traversal.
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/wedge%20terrain%20-%20flippers%20action%20snapshots-480.webp 480w,/assets/img/wedge%20terrain%20-%20flippers%20action%20snapshots-800.webp 800w,/assets/img/wedge%20terrain%20-%20flippers%20action%20snapshots-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/wedge%20terrain%20-%20flippers%20action%20snapshots.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" style="
+          
+          
+          
+          
+          
+            height: 350px; width: 100%; object-fit: cover; object-position: center;
+          
+        " title="DARPA LINC GVR robot on wedge terrain - snapshot" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+<div class="caption">
+  <b>Figure:</b> Sequence of snapshots showing our LINC Safety Enforcer’s automatic modulation of flippers on the wedge terrain (inline pass) when the operator is applying a maximum forward velocity command: (1) the robot moves towards the tipping point at the top of a wedge (2) LINC slows down the robot at the tipping point and lowers its flippers (3) LINC allows the robot to proceed forward, and flippers smoothly make contact with the terrain (4) LINC slows down the robot and brings flippers up (5) LINC allows robot to continue moving forward (6) LINC brings flippers down in anticipation of a possible upcoming tipping point.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/wedge%20terrain%20-%20pitch%20angle-480.webp 480w,/assets/img/wedge%20terrain%20-%20pitch%20angle-800.webp 800w,/assets/img/wedge%20terrain%20-%20pitch%20angle-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/wedge%20terrain%20-%20pitch%20angle.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Automatic flipper modulation during wedge traversal" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+
+<div class="caption">
+    <b>Figure:</b> Evolution of the robot’s pitch angle (top) and pitch angular velocity (bottom) in two representative runs of the inline wedge terrain with LINC off and LINC on. By automatically controlling the flippers, LINC prevents the robot’s nose from dipping far below the horizon (pitch angle remains mostly positive) and keeps the angular velocity from reaching large values. Without LINC, the robot acquires an excessive angular velocity as it traverses ridges, culminating in slam events (red circles) in which this angular velocity drops abruptly to zero as the robot’s tracts impact the downward slope.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/wedge%20terrain%20-%20flippers%20action%20representative%20run-480.webp 480w,/assets/img/wedge%20terrain%20-%20flippers%20action%20representative%20run-800.webp 800w,/assets/img/wedge%20terrain%20-%20flippers%20action%20representative%20run-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/wedge%20terrain%20-%20flippers%20action%20representative%20run.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Wedge terrain - Flippers action of representative run" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+
+<div class="caption">
+    <b>Figure:</b> Automatic control of flippers by the LINC Safety Enforcer during a representative run of the wedge terrain. LINC lowers the flippers as the robot approaches and traverses a ridge, preventing slam events and keeping the nose from dipping significantly below the horizon, which results in smoother and faster traversal. As the robot transitions onto the next upward slope, LINC raises the flippers, preventing an unnecessary growth in the pitch angle. Note that the <u>LINC controller has no map of the terrain and uses only the robot’s estimated state</u>.
+</div>
+
+<hr>
+
+<h2 id="additional-scenarios-single-track-incline">Additional Scenarios: Single-Track Incline</h2>
+<p>On steep inclines, the Safety Enforcer prevents toppling by modulating forward velocity and halting motion when safety thresholds are exceeded. Operators can adjust acceptable risk levels to continue traversal when appropriate.</p>
+
+<div class="row justify-content-sm-center">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/Mt06o7aKx1k?si=f4h_BBDvu10x8o16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+<div class="caption">
+  <b>Video:</b> Learned Safety Enforcer enabling surprise-free shared autonomy during single-track incline terrain.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/single-track%20incline%20-%20stopping-480.webp 480w,/assets/img/single-track%20incline%20-%20stopping-800.webp 800w,/assets/img/single-track%20incline%20-%20stopping-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/single-track%20incline%20-%20stopping.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Single-track incline - stopping with high setpoint" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/single-track%20incline%20-%20nudging-480.webp 480w,/assets/img/single-track%20incline%20-%20nudging-800.webp 800w,/assets/img/single-track%20incline%20-%20nudging-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/single-track%20incline%20-%20nudging.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Single-track incline - nudging with low setpoint" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+
+<div class="caption">
+    <b>Figure:</b> Automatic modulation of forward speed by the LINC Safety Enforcer on the single-track incline during representative runs with high and low setpoint. In the high-setpoint run (top), LINC brings the robot to a halt before it tips over; eventually, the operator backs out and takes an alternative route. In the low-setpoint run (bottom), LINC gradually restricts the allowable speed as the robot approaches the top of the incline, and then allows it to speed up along the downslope. The green shading indicates times at which the Safety Enforcer is intervening.
+</div>
+
+<hr>
+
+<h2 id="final-field-test-unified-safety-enforcer">Final Field Test: Unified Safety Enforcer</h2>
+
+<p>In the final evaluation, a <strong>single unified Safety Enforcer</strong> was deployed across all terrains without mode switching. The system remained robust even under <strong>unmodeled disturbances</strong>, including a pendulum payload attached to the robot.</p>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/linc-phase0-full-track-480.webp 480w,/assets/img/linc-phase0-full-track-800.webp 800w,/assets/img/linc-phase0-full-track-1400.webp 1400w," type="image/webp" sizes="95vw"></source>
+      
+    
+    <img src="/assets/img/linc-phase0-full-track.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" style="
+          
+          
+          
+          
+          
+            height: 240px; width: 100%; object-fit: cover; object-position: center;
+          
+        " title="Final test snapshots across terrains" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+  </div>
+</div>
+<div class="caption">
+  Sequence of snapshots from the final field test demonstrating safe traversal across diverse terrains with a single learned safety policy.
+</div>
+
+<hr>
+
+<h2 id="takeaways">Takeaways</h2>
+
+<p>This project demonstrates how learning-based safety mechanisms can be:</p>
+<ul>
+  <li>
+<strong>Effective:</strong> preventing failure modes such as toppling, slamming, and collisions</li>
+  <li>
+<strong>Human-centered:</strong> preserving operator intent with minimal, predictable intervention</li>
+  <li>
+<strong>Robust:</strong> generalizing across terrains and unmodeled disturbances</li>
+</ul>
+
+<p>The techniques developed here inform my broader research on safe reinforcement learning and real-world deployment of autonomous systems.</p>
+
+  </article>
+
+  
+    <h2>References</h2>
+    <div class="publications">
+      <h2 class="bibliography">2023</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100" style="background-color:#0041a8">
+            
+              <a href="https://www.corl.org/" rel="external nofollow noopener" target="_blank">L4DC</a>
+            
+          </abbr>
+        
+      
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+    
+    <img src="/assets/img/publication_preview/ISAACS.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="ISAACS.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="pmlr-v211-hsu23a" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">ISAACS: Iterative Soft Adversarial Actor-Critic for Safety</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Kai-Chieh
+            Hsu<sup>*</sup>, <em>Duy Phuong
+            Nguyen<sup>*</sup></em>, and Jaime Fernàndez
+            Fisac
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Proceedings of The 5th Annual Learning for Dynamics and Control Conference</em>,  15–16 jun 2023
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+        
+          <a href="https://saferobotics.princeton.edu/research/isaacs" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+        
+      
+      
+        
+          <a href="https://proceedings.mlr.press/v211/hsu23a/hsu23a.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+        <a href="https://youtu.be/RlPQR044pEQ?si=BO3vguUSvZc81r9i" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Video</a>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>The deployment of robots in uncontrolled environments requires them to operate robustly under previously unseen scenarios, like irregular terrain and wind conditions. Unfortunately, while rigorous safety frameworks from robust optimal control theory scale poorly to high-dimensional nonlinear dynamics, control policies computed by more tractable "deep" methods lack guarantees and tend to exhibit little robustness to uncertain operating conditions. This work introduces a novel approach enabling scalable synthesis of robust safety-preserving controllers for robotic systems with general nonlinear dynamics subject to bounded modeling error by combining game-theoretic safety analysis with adversarial reinforcement learning in simulation. Following a soft actor-critic scheme, a safety-seeking fallback policy is co-trained with an adversarial "disturbance" agent that aims to invoke the worst-case realization of model error and training-to-deployment discrepancy allowed by the designer’s uncertainty. While the learned control policy does not intrinsically guarantee safety, it is used to construct a real-time safety filter (or shield) with robust safety guarantees based on forward reachability rollouts. This shield can be used in conjunction with a safety-agnostic control policy, precluding any task-driven actions that could result in loss of safety. We evaluate our learning-based safety approach in a 5D race car simulator, compare the learned safety policy to the numerically obtained optimal solution, and empirically validate the robust safety guarantee of our proposed safety shield against worst-case model discrepancy.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+    </div>
+  
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2026
+  Duy
+  P.
+  Nguyen. 
+  
+  
+    Last updated: January 13, 2026.
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+
+
+  </body>
+</html>
