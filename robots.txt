@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://buzinguyen.github.io/sitemap.xml
