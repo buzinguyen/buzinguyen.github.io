@@ -4,7 +4,7 @@ title: learning
 permalink: /learning/
 collection: books
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 Welcome to my learning hub. Here you will find a collection of technical books and study notes I am currently writing to document my learning process on topics including Linear Systems, Control Theory, and Robotics.

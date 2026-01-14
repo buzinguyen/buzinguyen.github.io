@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -33,4 +33,4 @@ My research focuses on **scaling safe reinforcement learning for high-dimensiona
 
 I ground my work in both academic and industrial settings, ranging from **closed-loop RL fine-tuning pipelines for autonomous driving** developed during my internship at [Waymo](https://waymo.com/), to **real-time introspective safety mechanisms** field-tested in the [DARPA LINC program](https://www.darpa.mil/research/programs/learning-introspective-control).
 
-I will be on the job market in 2026 and am open to research collaborations and full-time opportunities in robotics and autonomy.
+<b><u>I am currently on the job market</u></b> and actively seeking full-time opportunities in robotics and autonomy, as well as research collaborations.
