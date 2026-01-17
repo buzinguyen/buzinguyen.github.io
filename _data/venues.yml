@@ -3,11 +3,11 @@
   color: "#0041a8"
 
 "L4DC":
-  url: https://www.corl.org/
+  url: https://openreview.net/group?id=L4DC.org
   color: "#0041a8"
 
 "IASEAI":
-  url: https://www.corl.org/
+  url: https://www.iaseai.org/
   color: "#0041a8"
 
 "AIJ":
@@ -19,4 +19,5 @@
   color: "#0041a8"
 
 "ICRA":
+  url: https://ras.papercept.net/conferences/scripts/start.pl
   color: "#0041a8"

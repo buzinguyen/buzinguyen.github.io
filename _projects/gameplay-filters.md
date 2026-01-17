@@ -3,9 +3,10 @@ layout: page
 title: ISAACS and Gameplay Filters
 description: Safety Filter synthesis and deployment for high-order dynamical systems
 img: assets/img/robert-kicking-short-zoom.gif
-importance: 1
+importance: 2
 category: work
 related_publications: true
+selected: true
 ---
 
 # ISAACS

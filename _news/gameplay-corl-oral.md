@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "[Gameplay Filters: Robust Zero-Shot Safety though Adversarial Imagination](https://arxiv.org/abs/2405.00846)" was accepted to CoRL 2024 for oral presentation.
+Our paper "[Gameplay Filters: Robust Zero-Shot Safety though Adversarial Imagination](https://arxiv.org/abs/2405.00846)" was accepted to [Annual Conference on Robot Learning (CoRL 2024)](https://2024.corl.org/) for oral presentation.

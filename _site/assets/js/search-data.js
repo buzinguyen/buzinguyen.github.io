@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of my projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -65,7 +65,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ml-robotics/";
-            },},{id: "news-our-paper-gameplay-filters-robust-zero-shot-safety-though-adversarial-imagination-was-accepted-to-corl-2024-for-oral-presentation",
+            },},{id: "news-received-a-teaching-assistant-award-from-princeton-university-for-developing-the-new-intelligent-robotic-systems-course-thank-you-professor-fisac-zixu-and-kai-chieh",
+          title: 'Received a teaching assistant award from Princeton University for developing the new Intelligent...',
+          description: "",
+          section: "News",},{id: "news-our-paper-sim-to-lab-to-real-safe-reinforcement-learning-with-shielding-and-generalization-guarantees-was-accepted-to-special-issue-on-risk-aware-autonomous-systems-theory-and-practice-artificial-intelligence",
+          title: 'Our paper “Sim-to-Lab-to-Real: Safe Reinforcement Learning with Shielding and Generalization Guarantees” was accepted...',
+          description: "",
+          section: "News",},{id: "news-our-paper-isaacs-iterative-soft-adversarial-actor-critic-for-safety-was-accepted-to-learning-for-dynamics-and-control-l4dc-2023",
+          title: 'Our paper “ISAACS: Iterative Soft Adversarial Actor-Critic for Safety” was accepted to Learning...',
+          description: "",
+          section: "News",},{id: "news-i-passed-my-general-exam-i-am-thankful-for-the-support-from-prof-jaime-fernández-fisac-and-the-safe-robotics-lab",
+          title: 'I passed my General Exam! I am thankful for the support from Prof....',
+          description: "",
+          section: "News",},{id: "news-our-paper-gameplay-filters-robust-zero-shot-safety-though-adversarial-imagination-was-accepted-to-annual-conference-on-robot-learning-corl-2024-for-oral-presentation",
           title: 'Our paper “Gameplay Filters: Robust Zero-Shot Safety though Adversarial Imagination” was accepted to...',
           description: "",
           section: "News",},{id: "news-i-will-be-joining-waymo-as-a-research-intern-in-summer-2025",
@@ -74,7 +86,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-featured-in-the-princeton-center-for-statistics-and-machine-learning-news-for-my-work-on-safe-robotics-check-out-the-article-on-the-csml-website",
           title: 'I’m featured in the Princeton Center for Statistics and Machine Learning news for...',
           description: "",
-          section: "News",},{id: "news-our-papers-provably-optimal-reinforcement-learning-under-safety-filtering-and-from-refusal-to-recovery-a-control-theoretic-approach-to-generative-ai-guardrails-were-accepted-to-iaseai-26",
+          section: "News",},{id: "news-our-papers-provably-optimal-reinforcement-learning-under-safety-filtering-and-from-refusal-to-recovery-a-control-theoretic-approach-to-generative-ai-guardrails-were-accepted-to-the-international-association-for-safe-amp-amp-ethical-ai-iaseai-26",
           title: 'Our papers “Provably Optimal Reinforcement Learning under Safety Filtering” and “From Refusal to...',
           description: "",
           section: "News",},{id: "projects-darpa-linc-phase-0",
@@ -82,6 +94,21 @@ ninja.data = [{
           description: "Learning Introspective Control for safety-critical field robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DARPA-LINC-phase0/";
+            },},{id: "projects-darpa-linc-phase-1",
+          title: 'DARPA LINC Phase 1',
+          description: "Learning Introspective Control for Replenishment at Sea missions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DARPA-LINC-phase1/";
+            },},{id: "projects-driveway",
+          title: 'Driveway',
+          description: "Data-driven simulator for closed-loop RLFT",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/driveway/";
+            },},{id: "projects-intelligent-robotic-systems",
+          title: 'Intelligent Robotic Systems',
+          description: "New course developed at Princeton University - ECE346",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ece346/";
             },},{id: "projects-isaacs-and-gameplay-filters",
           title: 'ISAACS and Gameplay Filters',
           description: "Safety Filter synthesis and deployment for high-order dynamical systems",
@@ -92,6 +119,11 @@ ninja.data = [{
           description: "An affordable 3D printed prosthesis using computer vision to track and choose grip patterns for the user. Support BCI and EMG as well.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project-armed/";
+            },},{id: "projects-reach-avoid-games",
+          title: 'Reach-Avoid Games',
+          description: "Efficient multi-agent reach-avoid dynamic games solver",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/reach-avoid-games/";
             },},{
         id: 'social-cv',
         title: 'CV',

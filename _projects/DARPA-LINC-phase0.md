@@ -6,6 +6,7 @@ img: assets/img/wedge-terrain-preview.gif
 importance: 1
 category: work
 related_publications: true
+selected: true
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -44,13 +45,17 @@ The Safety Enforcer continuously monitors the robot state and operator commands 
     {% include figure.liquid
       path="assets/img/isaacs-information-structure.png"
       title="ISAACS information structure in training and deployment"
-      class="img-fluid rounded z-depth-1" %}
+      class="img-fluid rounded z-depth-1" 
+      style="height: 250px; object-fit: scale-down;"
+    %}
   </div>
   <div class="col-sm-7 mt-3 mt-md-0">
     {% include figure.liquid
       path="assets/img/value-based-shielding-block-diagram.png"
       title="Value-based shielding block diagram"
-      class="img-fluid rounded z-depth-1" %}
+      class="img-fluid rounded z-depth-1"
+      style="height: 250px; object-fit: scale-down;"
+    %}
   </div>
 </div>
 <div class="caption">
@@ -71,14 +76,18 @@ Unlike rule-based safety layers, the learned policy captures nonlinear interacti
         loading="eager"
         path="assets/img/gvr-training-sim.gif"
         title="GVR training in simulation with force adversaries"
-        class="img-fluid rounded z-depth-1" %}
+        class="img-fluid rounded z-depth-1" 
+        style="height: 400px; object-fit: cover;"
+        %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
         loading="eager"
         path="assets/img/gvr-learn-flippers.gif"
         title="GVR learned to use flippers in simulation"
-        class="img-fluid rounded z-depth-1" %}
+        class="img-fluid rounded z-depth-1" 
+        style="height: 400px; object-fit: cover;"
+        %}
     </div>
 </div>
 <div class="caption">
