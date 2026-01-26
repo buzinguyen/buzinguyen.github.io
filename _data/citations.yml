@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-21'
+  last_updated: '2026-01-26'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: An investigation of transmission line modeling test structure in TCAD
     year: '2020'
   BpR72EcAAAAJ:IjCSPb-OGe4C:
-    citations: 76
+    citations: 78
     title: 'Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees'
     year: '2023'
   BpR72EcAAAAJ:KlAtU1dfN6UC:
@@ -38,7 +38,7 @@ papers:
     title: Towards a modular and dexterous transhumeral prosthesis based on bio-signals and active vision
     year: '2019'
   BpR72EcAAAAJ:eQOLeE2rZwMC:
-    citations: 18
+    citations: 19
     title: 'Gameplay filters: Robust zero-shot safety through adversarial imagination'
     year: '2024'
   BpR72EcAAAAJ:hqOjcs7Dif8C:
