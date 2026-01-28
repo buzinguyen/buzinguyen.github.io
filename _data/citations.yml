@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-01-28'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -34,7 +34,7 @@ papers:
     title: An Empirical Study on Estimating Energy Consumption From Software Traces
     year: '2025'
   BpR72EcAAAAJ:d1gkVwhDpl0C:
-    citations: 1
+    citations: 2
     title: Towards a modular and dexterous transhumeral prosthesis based on bio-signals and active vision
     year: '2019'
   BpR72EcAAAAJ:eQOLeE2rZwMC:
@@ -54,6 +54,6 @@ papers:
     title: A hybrid indoor localization system running ensemble machine learning
     year: '2018'
   BpR72EcAAAAJ:u5HHmVD_uO8C:
-    citations: 1
+    citations: 2
     title: A hybrid active vision system for real time application running object recognition
     year: '2019'
