@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-28'
+  last_updated: '2026-02-06'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: Provably Optimal Reinforcement Learning under Safety Filtering
     year: '2025'
   BpR72EcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 43
+    citations: 44
     title: 'Isaacs: Iterative soft adversarial actor-critic for safety'
     year: '2023'
   BpR72EcAAAAJ:UeHWp8X0CEIC:
