@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-30'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: An investigation of transmission line modeling test structure in TCAD
     year: '2020'
   BpR72EcAAAAJ:IjCSPb-OGe4C:
-    citations: 83
+    citations: 87
     title: 'Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees'
     year: '2023'
   BpR72EcAAAAJ:KlAtU1dfN6UC:
