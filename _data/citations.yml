@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-29'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,15 +10,15 @@ papers:
     title: An investigation of transmission line modeling test structure in TCAD
     year: '2020'
   BpR72EcAAAAJ:IjCSPb-OGe4C:
-    citations: 87
+    citations: 91
     title: 'Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees'
     year: '2023'
   BpR72EcAAAAJ:KlAtU1dfN6UC:
-    citations: 0
+    citations: 1
     title: Provably Optimal Reinforcement Learning under Safety Filtering
     year: '2025'
   BpR72EcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 44
+    citations: 46
     title: 'Isaacs: Iterative soft adversarial actor-critic for safety'
     year: '2023'
   BpR72EcAAAAJ:ULOm3_A8WrAC:
@@ -30,15 +30,19 @@ papers:
     title: 'Back to the Future: Efficient, Time-Consistent Solutions in Reach-Avoid Games'
     year: '2021'
   BpR72EcAAAAJ:WF5omc3nYNoC:
-    citations: 8
+    citations: 9
     title: 'Magics: Adversarial rl with minimax actors guided by implicit critic stackelberg for convergent neural synthesis of robot safety'
     year: '2024'
+  BpR72EcAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: Synthesis and Deployment of Maximal Robust Control Barrier Functions through Adversarial Reinforcement Learning
+    year: '2026'
   BpR72EcAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Towards a modular and dexterous transhumeral prosthesis based on bio-signals and active vision
     year: '2019'
   BpR72EcAAAAJ:eQOLeE2rZwMC:
-    citations: 20
+    citations: 22
     title: 'Gameplay filters: Robust zero-shot safety through adversarial imagination'
     year: '2024'
   BpR72EcAAAAJ:hqOjcs7Dif8C:
@@ -46,7 +50,7 @@ papers:
     title: A Study on the Non-Linear Characteristics of Ohmic Contact Test Structures
     year: '2024'
   BpR72EcAAAAJ:kNdYIx-mwKoC:
-    citations: 0
+    citations: 1
     title: 'From Refusal to Recovery: A Control-Theoretic Approach to Generative AI Guardrails'
     year: '2025'
   BpR72EcAAAAJ:u-x6o8ySG0sC:
