@@ -1,10 +1,14 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-29'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'YomeciLand x Bunjil Place: The sounding body as play'
     year: '2020'
+  BpR72EcAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: Actors Guided by Implicit Critic Stackelberg for Convergent Neural Synthesis of Robot Safety
+    year: '2026'
   BpR72EcAAAAJ:9yKSN-GCB0IC:
     citations: 4
     title: An investigation of transmission line modeling test structure in TCAD
@@ -18,7 +22,7 @@ papers:
     title: Provably Optimal Reinforcement Learning under Safety Filtering
     year: '2025'
   BpR72EcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 47
+    citations: 48
     title: 'Isaacs: Iterative soft adversarial actor-critic for safety'
     year: '2023'
   BpR72EcAAAAJ:ULOm3_A8WrAC:
@@ -42,7 +46,7 @@ papers:
     title: Towards a modular and dexterous transhumeral prosthesis based on bio-signals and active vision
     year: '2019'
   BpR72EcAAAAJ:eQOLeE2rZwMC:
-    citations: 22
+    citations: 23
     title: 'Gameplay filters: Robust zero-shot safety through adversarial imagination'
     year: '2024'
   BpR72EcAAAAJ:hqOjcs7Dif8C:
