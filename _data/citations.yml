@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-27'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,15 +14,15 @@ papers:
     title: An investigation of transmission line modeling test structure in TCAD
     year: '2020'
   BpR72EcAAAAJ:IjCSPb-OGe4C:
-    citations: 98
+    citations: 101
     title: 'Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees'
     year: '2023'
   BpR72EcAAAAJ:KlAtU1dfN6UC:
     citations: 3
-    title: Provably optimal reinforcement learning under safety filtering
-    year: '2026'
+    title: Provably Optimal Reinforcement Learning under Safety Filtering
+    year: '2025'
   BpR72EcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 54
+    citations: 55
     title: 'Isaacs: Iterative soft adversarial actor-critic for safety'
     year: '2023'
   BpR72EcAAAAJ:ULOm3_A8WrAC:
