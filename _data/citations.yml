@@ -1,28 +1,24 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-21'
 papers:
   BpR72EcAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'YomeciLand x Bunjil Place: The sounding body as play'
     year: '2020'
-  BpR72EcAAAAJ:4DMP91E08xMC:
-    citations: 0
-    title: Actors Guided by Implicit Critic Stackelberg for Convergent Neural Synthesis of Robot Safety
-    year: '2026'
   BpR72EcAAAAJ:9yKSN-GCB0IC:
     citations: 4
     title: An investigation of transmission line modeling test structure in TCAD
     year: '2020'
   BpR72EcAAAAJ:IjCSPb-OGe4C:
-    citations: 101
+    citations: 103
     title: 'Sim-to-lab-to-real: Safe reinforcement learning with shielding and generalization guarantees'
     year: '2023'
   BpR72EcAAAAJ:KlAtU1dfN6UC:
     citations: 3
-    title: Provably Optimal Reinforcement Learning under Safety Filtering
-    year: '2025'
+    title: Provably optimal reinforcement learning under safety filtering
+    year: '2026'
   BpR72EcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 55
+    citations: 56
     title: 'Isaacs: Iterative soft adversarial actor-critic for safety'
     year: '2023'
   BpR72EcAAAAJ:ULOm3_A8WrAC:
@@ -34,8 +30,8 @@ papers:
     title: 'Back to the Future: Efficient, Time-Consistent Solutions in Reach-Avoid Games'
     year: '2021'
   BpR72EcAAAAJ:WF5omc3nYNoC:
-    citations: 10
-    title: 'Magics: Adversarial rl with minimax actors guided by implicit critic stackelberg for convergent neural synthesis of robot safety'
+    citations: 11
+    title: 'MAGICS: Adversarial RL with minimax actors guided by implicit critic Stackelberg for convergent neural synthesis of robot safety'
     year: '2024'
   BpR72EcAAAAJ:YOwf2qJgpHMC:
     citations: 1
@@ -54,7 +50,7 @@ papers:
     title: A Study on the Non-Linear Characteristics of Ohmic Contact Test Structures
     year: '2024'
   BpR72EcAAAAJ:kNdYIx-mwKoC:
-    citations: 3
+    citations: 6
     title: 'From refusal to recovery: A control-theoretic approach to generative ai guardrails'
     year: '2026'
   BpR72EcAAAAJ:u-x6o8ySG0sC:
