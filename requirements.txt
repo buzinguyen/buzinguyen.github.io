@@ -1,3 +1,6 @@
 nbconvert
 pyyaml
 scholarly
+# scholarly 1.7.11 imports the bibtexparser v1 API (bibtexparser.bibdatabase),
+# which bibtexparser 2.0 (Sep 2026) removed. Drop this pin once scholarly supports v2.
+bibtexparser<2
