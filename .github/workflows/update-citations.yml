@@ -7,6 +7,10 @@ on:
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
+permissions:
+  contents: write # push the updated _data/citations.yml
+  actions: write # dispatch deploy.yml (see "Trigger site deploy" below)
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
@@ -19,7 +23,7 @@ jobs:
       #          token: ${{ secrets.PAT }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
@@ -49,8 +53,9 @@ jobs:
           set +e
           echo "🚀 Running citation update script (single attempt)..."
           start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
+          timeout 180 python bin/update_scholar_citations.py
           status=$?
+          echo "status=$status" >> $GITHUB_OUTPUT
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
@@ -92,10 +97,33 @@ jobs:
           echo "🔧 Git configured."
 
       - name: Commit and push if changed
+        id: commit
         run: |
           git add _data/citations.yml
-          git diff --staged --quiet || (
+          if git diff --staged --quiet; then
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          else
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
             git push
-          )
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # A push made with GITHUB_TOKEN does not trigger other workflows, so deploy.yml
+      # would never rebuild the site with the new counts. workflow_dispatch is exempt.
+      - name: Trigger site deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh workflow run deploy.yml --ref "${{ github.ref_name }}"
+          echo "🚀 Dispatched deploy.yml." >> $GITHUB_STEP_SUMMARY
+
+      # The script step swallows errors (set +e) so the summary steps above still run;
+      # fail here so a broken update shows as a red run instead of a silent green one.
+      - name: Fail if citation update failed
+        if: steps.run_citation_update.outputs.status != '0'
+        run: |
+          echo "::error::update_scholar_citations.py exited with code ${{ steps.run_citation_update.outputs.status }}. See the 'Run citation update script' step."
+          exit 1
